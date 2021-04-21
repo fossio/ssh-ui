@@ -7,8 +7,8 @@ Ssh-ui is a native Gtk client for managing ssh keys.
 ## Building development version
 
 ```bash
-meson builddir --prefix=/usr
-ninja install -C builddir
+meson builddir
+meson install -C builddir
 ./builddir/com.github.foss-io.ssh-ui
 ```
 
