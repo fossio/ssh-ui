@@ -1,8 +1,8 @@
-# ![Ssh-UI](data/assets/doca_logo.png)
+<!-- # ![Ssh-UI](data/assets/doca_logo.png) -->
 
-> Gtk Client for Docker
+> Gtk Client for SSH
 
-Ssh-ui is a native Gtk client for managing docker containers.
+Ssh-ui is a native Gtk client for managing ssh keys.
 
 ## Building development version
 
@@ -10,7 +10,7 @@ Ssh-ui is a native Gtk client for managing docker containers.
 meson build --prefix=/usr
 cd build
 ninja install
-./src/com.github.foss-io.ssh-ui
+./com.github.foss-io.ssh-ui
 ```
 
 ## Development setup
@@ -23,7 +23,5 @@ ninja install
 
 ### Libraries
 
-- [gtk+ 3.0](https://valadoc.org/gtk+-3.0/Gtk.html)
-- [glib 2.0](https://valadoc.org/glib-2.0/GLib.html)
-- [libosinfo 1.0](https://valadoc.org/libosinfo-1.0/index.htm)
-- [granite](https://valadoc.org/granite/Granite.html)
+- [gtk 4](https://valadoc.org/gtk4/Gtk.html)
+- [gio 2.0](https://valadoc.org/gio-2.0/GLib.html)

@@ -11,8 +11,7 @@ executable(
     widget_files,
     dependencies: [
         dependency ('gtk4'),
-        dependency ('gio-2.0'),
-        dependency ('libosinfo-1.0')
+        dependency ('gio-2.0')
     ],
     install: true
 )
